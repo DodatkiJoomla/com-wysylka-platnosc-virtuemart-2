@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="component" method="upgrade">
+    <name>COM_WYSYLKA_PLATNOSC_VM2</name>
+    <creationDate>2014-10-01</creationDate>
+	<author>Dodatkijoomla.pl</author> 
+	<copyright>Copyright (c) 2014 DodatkiJoomla.pl</copyright> 
+	<license>GNU/GPL v2</license>
+	<authorEmail>kontakt@dodatkijoomla.pl</authorEmail>
+    <authorUrl>http://dodatkijoomla.pl</authorUrl>
+    <version>1.2.0</version>
+    <description>Komponent wiążący wysyłki z płatnościami w Virtuemart 2.</description>
+	<administration>
+		<menu img="components/com_wysylka_platnosc_vm2/dodatki_joomla_pl_icon.png">COM_WYSYLKA_PLATNOSC_VM2</menu>
+		<files folder="admin">
+            <folder>language</folder>
+			<filename>dodatki_joomla_pl_icon.png</filename>
+			<filename>admin.wysylka_platnosc_vm2.php</filename>
+			<filename>index.html</filename>
+		</files>
+        <languages folder="admin">
+            <language tag="en-GB">language/en-GB/en-GB.com_wysylka_platnosc_vm2.sys.ini</language>
+            <language tag="pl-PL">language/pl-PL/pl-PL.com_wysylka_platnosc_vm2.sys.ini</language>
+        </languages>
+	</administration>
+</extension>
